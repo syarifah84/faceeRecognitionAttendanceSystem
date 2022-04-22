@@ -1,0 +1,11 @@
+channels:
+     - conda-forge
+dependencies:
+     - dlib=19.18.0
+     - cmake=3.12.0
+     - face_recognition=1.3.0
+     - pip
+     - pip:
+       - pandas
+       - dill
+       - click==7.1.2 
